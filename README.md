@@ -6,7 +6,7 @@ Disable gradle daemon
 
 Install the plugin by fetching the dependencies
 
-    $ cordova plugin add https://github.com/tkikuchi2000/cordova-plugin-disable-gradle-daemon.git#1.0.0
+    $ cordova plugin add https://github.com/tkikuchi2000/cordova-plugin-disable-gradle-daemon.git#1.1.0 --variable ENABLE_DAEMON=false
 
 Install Android platform
 
