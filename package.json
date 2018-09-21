@@ -1,0 +1,37 @@
+{
+  "name": "cordova-plugin-disable-gradle-daemon",
+  "version": "1.0.0",
+  "description": "Disable gradle daemon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tkikuchi2000/cordova-plugin-disable-gradle-daemon.git"
+  },
+  "cordova": {
+    "id": "cordova-plugin-disable-gradle-daemon",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "cordova-android",
+    "gradle",
+    "daemon"
+  ],
+  "dependencies": {
+    "cordova-android": ">=7.0.0"
+  },
+  "devDependencies": {
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=6.0.0"
+    }
+  ],
+  "author": "tkikuchi2000 <tkikuchi2000@gmail.com> (https://github.com/tkikuchi2000)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tkikuchi2000/cordova-plugin-disable-gradle-daemon/issues"
+  },
+  "homepage": "https://github.com/tkikuchi2000/cordova-plugin-disable-gradle-daemon#readme"
+}

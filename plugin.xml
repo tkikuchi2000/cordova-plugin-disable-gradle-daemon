@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  id="cordova-plugin-disable-gradle-daemon" version="1.0.0">
+  <name>Disable gradle daemon</name>
+  <description>Disable gradle daemon</description>
+  <author>tkikuchi2000@gmail.com</author>
+
+  <license>MIT</license>
+
+  <keywords>disable gradle daemon</keywords>
+  <repo>https://github.com/tkikuchi2000/cordova-plugin-disable-gradle-daemon.git</repo>
+  <issue>https://github.com/tkikuchi2000/cordova-plugin-disable-gradle-daemon/issues</issue>
+
+
+  <engines>
+    <engine name="cordova" version=">=6.0.0" />
+  </engines>
+
+  <!-- android -->
+  <platform name="android">
+    <hook src="scripts/disable_gradle_daemon.js" type="after_prepare" />
+  </platform>
+
+</plugin>
